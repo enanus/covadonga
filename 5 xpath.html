@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Lenguaje de Marcas</title>
+
+<link href="covadonga.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+<div class="header">
+    <h1><a class="header" href="index.html">Lenguaje de Marcas</a></h1>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-12 menu">
+    <ul>
+        <li> <a class="menu" href="1%20htmlcss.html" target="_blank">HTML/CSS</a></li>
+        <li> <a class="menu" href="2%20xmldtd.html" target="_blank">XML/DTD</a></li>
+        <li> <a class="menu" href="3%20xsd.html" target="_blank">XSD</a></li>
+        <li> <a class="menu" href="4%20xslt.html" target="_blank">XSLT</a></li>
+        <li> <a class="menu" href="5%20xpath.html" target="_blank">XPATH</a></li>
+        <li> <a class="menu" href="6%20xquery.html" target="_blank">XQUERY</a></li>  
+        <li><a class="menu"  href="7%20contacto.html" target="_blank">Contacto</a>
+        </li>
+    </ul>
+  </div>
+
+  <div class="col-7 col-s-12">
+    <h3>XPath</h3>
+      <p>Es un lenguaje que permite seleccionar nodos de un documento XML y calcular valores a partir de su contenido. Existen varias versiones de XPath aprobadas por el <a class="pagprincipal" href="https://www.w3c.es/" target="_blank">W3C</a>.
+      XPath es un lenguaje de navegación de grafos que se usa para seleccionar un conjunto de nodos de un documento XML. Cada operador XPath selecciona un conjunto de nodos basándose en un conjunto de nodos seleccionado por un operador XPath anterior. Por ejemplo, dado un conjunto de "cliente" nodos, XPath pueden seleccionar todo "orden" nodos con la fecha valor de atributo de "7/14/1999". El conjunto de nodos resultante contiene todos los pedidos con la fecha de pedido "7/14/1999".</p>    
+    <div class="flex-container"><a target="_blank" href="xpath%20nodos.jpg">
+    <img src="xpath%20nodos.jpg" alt="5Terre" width="400" height="200"> </a></div>
+    <p>XPath tiene los siguientes tipos de nodos:</p>
+    <ul class="pagprincipalnum">
+    <li>Raíz. Se identifica por /. No se debe confundir el nodo raíz con el elemento raíz del documento. Así, si el documento XML de nuestro ejemplo tiene por elemento raíz a libro, éste será el primer nodo que cuelgue del nodo raíz del árbol, el cual es: /.
+    / hace referencia al nodo raíz del árbol, pero no al elemento raíz del documento XML, por más que un documento XML solo pueda tener un elemento raíz. De hecho, podemos afirmar que el nodo raíz del árbol contiene al elemento raíz del documento.</li>
+    <li>Elementos: Cualquier elemento de un documento XML se convierte en un nodo elemento dentro del árbol. Cada elemento tiene su nodo padre. El nodo padre de cualquier elemento es, a su vez, un elemento, excepto el elemento raíz, cuyo padre es el nodo raíz. Los nodos elemento tienen a su vez hijos, que son: nodos elemento, nodos texto, nodos comentario y nodos de instrucciones de proceso. Los nodos elemento también tienen propiedades tales como su nombre, sus atributos e información sobre los "espacios de nombre" que tiene activos.</li>
+    <li>Atributos. Como ya hemos indicado, los nodos atributo no son tanto hijos del nodo elemento que los contiene como etiquetas añadidas a dicho nodo elemento. Cada nodo atributo consta de un nombre, un valor (que es siempre una cadena) y un posible "espacio de nombres".
+    Aquellos atributos que tienen por valor el valor por defecto asignado en el DTD se tratarán como si el valor se les hubiese asignado al escribir el documento XML. Al contrario, no se crea nodo para atributos no especificados en el documento XML, y con la propiedad #IMPLIED definida en su DTD. Tampoco se crean nodos atributo para las definiciones de los espacios de nombre. Todo esto es normal si tenemos en cuenta que no es necesario tener un DTD para procesar un documento XML.</li>
+    <li>Texto. Por texto vamos a hacer referencia a todos los caracteres del documento que no están marcados con alguna etiqueta. Un nodo texto no tiene hijos, es decir, los distintos caracteres que lo forman no se consideran hijos suyos.</li>
+    <li>Comentario y de instrucciones de procesamiento: Aparte de los nodos indicados, en el árbol también se generan nodos para cada nodo con comentarios y con instrucciones de proceso. Al contenido de estos nodos se puede acceder con la propiedad string-value.</li>
+    </ul>
+    <table style="width:100%">
+  <caption>Seleccionando nodos</caption>
+    <tr>
+    <th class="xpath">Expresión</th>
+    <th class="xpath">Acción</th>
+  </tr>
+  <tr>
+    <td class="center">Nombre nodo</td>
+    <td>Selecciona todos los nodos con ese nombre</td>
+</tr>
+<tr> 
+    <td class="center">/</td>
+    <td>Selecciona desde el nodo raíz</td></tr>
+<tr>
+    <td class="center">//</td>
+    <td>Selecciona todos los descendientes del nodo actual que coincidan con la selección</td></tr>
+<tr>
+    <td class="center">.</td>
+    <td>Selecciona el nodo actual</td></tr>
+<tr>
+    <td class="center">..</td>
+    <td>Selecciona el padre del nodo actual</td></tr>
+<tr>
+    <td class="center">@</td>
+    <td>Selecciona atributos</td>
+  </tr>
+</table>   
+    
+    </div>    
+
+  <div class="col-12 col-s-12">
+    <div class="aside">
+      <h2>Enlaces interesantes</h2>
+      <p><b><a class="panel" href="http://www.ticarte.com/contenido/que-es-el-lenguaje-xpath" target="_blank">Tutorial XPATH</a></b></p>
+      <p><b><a class="panel" href="http://www.mclibre.org/consultar/xml/lecciones/xml-xpath.html" target="_blank">Teoria XPATH</a></b></p>
+      <h2>Ejercicios</h2>
+      <p><b><a class="panel" href="https://oscarmaestre.github.io/lenguajes_marcas/ejercicios/xpath/anexo_ejercicios_xpath.html" target="_blank">Ejercicios XPATH</a></b></p>
+    </div>
+    </div></div>
+
+
+<div class="footer">
+  <div class="tooltip"><a class="panel" href="8%20sobre%20mi.html" target="_blank">Covadonga Herrero Álvarez</a>
+      <span class="tooltiptext">más información</span>
+</div>
+</div>
+
+
+</body>
+</html>

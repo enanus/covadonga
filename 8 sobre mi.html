@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Lenguaje de Marcas</title>
+
+<link href="covadonga.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+<div class="header2">
+  <a href="index.html" class="logo">Lenguaje de Marcas</a>
+  <div class="header2-right">
+    <a href="1%20htmlcss.html" target="_blank">HTML/CSS</a>
+         <a href="2%20xmldtd.html" target="_blank">XML/DTD</a>
+         <a href="3%20xsd.html" target="_blank">XSD</a>
+         <a href="4%20xslt.html" target="_blank">XSLT</a>
+         <a href="5%20xpath.html" target="_blank">XPATH</a>
+         <a href="6%20xquery.html" target="_blank">XQUERY</a>  
+         <a class="menu2"  href="7%20contacto.html" target="_blank">Contacto</a>
+  </div>
+</div>
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="row">
+  <div class="col-3 col-s-12">
+     <div class="container">
+  <img src="avatar.jpg" alt="Avatar" class="imageover">
+  <div class="overlay">
+    <div class="textover">Covadonga Herrero Álvarez</div>
+  </div>
+</div> 
+    </div>
+    
+  <div class="col-8 col-s-12">
+    <h3>Sobre mí...</h3>
+<p>Mi nombre es Covadonga, y soy estudiante de 2º curso del Grado Superior de Administración de Sistemas Informáticos en Red.
+Esta web es un proyecto de la asignatura de Lenguaje de Marcas, en el cual debemos desarrollar un sitio web con HTML y CSS.
+La temática escogida, como se puede comprobar, no es más que la propia asignatura anteriormente referida. En ella, además de una pequeña presentación general de la temática de la asignatura, desarrollamos los distinto tipos de lenguajes impartidos en la misma.
+La página web está basada en un diseño web responsive: la web a priori está basada en el dispositivo móvil con un ancho del 95%, para posteriormente adaptarse a una pantalla de un ancho mínimo de 600px y de 768px.
+Al estar basada en una vista de cuadrícula, en la cual la página se divide en cuadrículas (12 columnas con un ancho total del 100% que se reducirá y expandirá a medida que cambie el tamaño de la ventana del navegador, nos aseguramos que todos los elementos html tengan la box sizing propiedad establecida en border-box, colocando el código correspondiente al inicio del CSS. Además especificamos que todas las columnas “floten” hacia la izquierda.
+Las columnas dentro de una fila están flotando hacia la izquierda y, por lo tanto, se eliminan del flujo de la página, y otros elementos se colocarán como si las columnas no existieran. Para evitar esto, agregaremos un estilo que borre el flujo, colocando en el CSS “row:after (clear both y display table).
+El diseño del sitio web se divide en encabezado, menú de navegación, el contenido principal, un contenido secundario y el pie de página. Cabe destacar el diseño de dos tipos de menú de navegación, uno para las páginas con contenido propio de la temática de la asignatura:
+</p>
+<ul class="pagprincipal">
+    <li>El menú de las páginas con contenido propio de la temática de la asignatura se combinan dos tipos de diseños: de una columna para dispositivos móviles y Tablet y combinado con el contenido principal en el caso de pantallas superiores a 768px. </li>
+    <li>El menú para las páginas “sobre mí” y “contacto” la barra de navegación está incluida dentro de la cabecera, siendo igualmente diseñada de manera responsive.</li></ul>
+<p>Colocado en la parte superior del pie de página, nos encontramos con un contenedor de contenido secundario, que ocupa el 95% del ancho pero adaptándose de manera responsive al dispositivo, en el cual se linkean los enlaces acerca de la teoría y ejercicios prácticos más relevantes.
+Para las imágenes, utilizamos tanto el modulo de diseño de flexbox (flex container), que se basa en un diseño de “cajas” flexibles que modifican su posición para adaptarse a la pantalla de visualización; como galerías de imágenes de diseño Responsive (div.gallery).
+Además, incluimos en varias páginas de contenidos videos, en los cuales la propiedad width está configurada al 100% para que el reproductor de video aumente o disminuya en función del tamaño de la pantalla. 
+La página relativa a “sobre mí” se abre a través del pie de página. Ya que tenía el inconveniente de que no se advertía este link, utilicé Tooltip, la cual es una información sobre herramientas se usa a menudo para especificar información adicional sobre algo cuando el usuario mueve el puntero del mouse sobre un elemento. En este diseño, se agrega una flecha a la derecha del nombre y haciendo click sobre el mismo se enlaza con la página en cuestión.
+
+
+Otras características destacables del diseño:</p>
+<ul class="pagprincipalcircle">
+<li>Formas redondeadas en la cabecera, pie de página y menú de navegación (obtenido a través de la propiedad border-radius).</li>
+<li>En la página sobre mí, creamos en la foto un efecto de superposición deslizante al pasar el ratón por encima.</li>
+<li>Tablas con diferentes efectos, entre los que destaca el “border-collapse” que consigue que los bordes se contraigan en un solo borde, y la etiqueta “caption” con la que agregamos el título a cada tabla.</li>
+<li>Listas numeradas y sin numerar.</li>
+<li>Formulario con diseño responsive, con un “border” que cambia al posicionarse sobre él, botón de enviar que dirige el contenido del formulario a mi dirección de email y que modifica el color al  enviar el mismo.</li></ul>
+
+    </div> 
+     </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+  <div class="footer">
+  <div class="tooltip"><a class="panel" href="8%20sobre%20mi.html" target="_blank">Covadonga Herrero Álvarez</a>
+      <span class="tooltiptext">más información</span>
+</div>
+</div>
+
+   
+</body>
+</html>

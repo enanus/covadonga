@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Lenguaje de Marcas</title>
+  <link>https://enanus.github.io/covadonga/</link>
+  <description>Temario asignatura gratuito</description>
+  <image>
+     <url>https://enanus.github.io/covadonga/DTD%20XSD.jpg</url>
+     <title>Lenguaje de Marcas</title>
+     <link>https://enanus.github.io/covadonga/</link>
+   </image>
+  <language>es-es</language>
+  <copyright>Todos los derechos reservados</copyright>
+  <pubDate>Fri, 11 Jan 2019 00:00:00 +0100</pubDate>
+  <item>
+    <title>HTML/CSS</title>
+    <link>https://enanus.github.io/covadonga/1%20htmlcss.html</link>
+    <description>Nuevo contenido acerca del lenguaje HTML y CSS, con ejercicios prácticos.</description>
+    <author>covadonga@hotmail.com</author>
+    <pubDate>Thu, 10 Jan 2019 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>XML/DTD</title>
+    <link>https://enanus.github.io/covadonga/2%20xmldtd.html</link>
+    <description>Descripción del lenguaje DTD y XML, con ejercicios prácticos.</description>
+    <author>covadonga@hotmail.com</author>
+    <pubDate>Wed, 09 Jan 2019 00:00:00 GMT</pubDate>
+  </item>
+    <item>
+    <title>XQUERY</title>
+    <link>https://enanus.github.io/covadonga/6%20xquery.html</link>
+    <description>XQUERY, el lenguaje creado para buscar y extraer elementos y atributos de documentos XML.</description>
+    <author>covadonga@hotmail.com</author>
+    <pubDate>Sun, 06 Jan 2019 00:00:00 GMT</pubDate>
+  </item>
+    </channel>
+
+</rss>

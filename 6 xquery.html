@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Lenguaje de Marcas</title>
+
+<link href="covadonga.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+<div class="header">
+    <h1><a class="header" href="index.html">Lenguaje de Marcas</a></h1>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-12 menu">
+    <ul>
+        <li> <a class="menu" href="1%20htmlcss.html" target="_blank">HTML/CSS</a></li>
+        <li> <a class="menu" href="2%20xmldtd.html" target="_blank">XML/DTD</a></li>
+        <li> <a class="menu" href="3%20xsd.html" target="_blank">XSD</a></li>
+        <li> <a class="menu" href="4%20xslt.html" target="_blank">XSLT</a></li>
+        <li> <a class="menu" href="5%20xpath.html" target="_blank">XPATH</a></li>
+        <li> <a class="menu" href="6%20xquery.html" target="_blank">XQUERY</a></li>  
+        <li><a class="menu"  href="7%20contacto.html" target="_blank">Contacto</a>
+        </li>
+    </ul>
+  </div>
+
+  <div class="col-7 col-s-12">
+    <h3>XQUERY</h3>
+      <p>XQuery, también conocido como XML Query, es un lenguaje creado para        buscar y extraer elementos y
+        atributos de documentos XML. La mejor forma de entender este lenguaje es diciendo que XQuery es para
+        XML lo que SQL es para las bases de datos. XQuery es un lenguaje de consulta diseñado para escribir
+        consultas sobre colecciones de datos expresadas en XML. Abarca desde archivos XML hasta bases de datos
+        relacionales con funciones de conversión de registros a XML.
+        Su principal función es extraer información de un conjunto de datos organizados como un árbol n-ario de
+        etiquetas XML. En este sentido XQuery es independiente del origen de los datos.
+        Una consulta XQuery podría resolver, por ejemplo, la siguiente pregunta: "Seleccionar todos los libros con un
+        precio menor a 20 euros de la colección de libros almacenada en un documento XML llamado catalogo.xml".
+        XQuery es un lenguaje funcional, lo que significa que en vez de ejecutar una lista de comandos como un
+        lenguaje procedimental clásico, cada consulta es una expresión que es evaluada y devuelve un resultado, al
+        igual que en SQL. Diversas expresiones pueden combinarse de una manera muy flexible con otras expresiones
+        para crear nuevas expresiones más complejas y de mayor potencia semántica.</p>
+      <div class="flex-container"><a target="_blank" href="xquery.png">
+    <img src="xquery.png" alt="5Terre" width="400" height="200"> </a></div>
+      <p>XQuery pretende ser el futuro estándar de consultas sobre documentos XML. Actualmente XQuery es un
+        conjunto de borradores en el que trabaja el grupo W3C, por lo que es compatible con XML, Namespaces,
+        XSLT, XPath y XML Schema. Sin embargo, a pesar de no tener una redacción definitiva ya existen o están en
+        proceso numerosas implementaciones de motores y herramientas que lo soportan.
+        XQuery hace uso de XPath, un lenguaje utilizado para seleccionar partes de XML. De hecho, XQuery 1.0 y
+        XPath 2.0 comparten el mismo modelo de datos y soportan las mismas funciones y operadores.</p>
+      <video width="400" controls>
+      <source src="XQuery_%20Consultas.mp4" type="video/mp4">
+       XQUERY
+       </video>
+      <h3>Cláusula FLWOR</h3>
+      <p>Son los bloques principales del formato de consultas XQuery. </p>
+      <table style="width:100%">
+  <caption>Seleccionando nodos</caption>
+    <tr class="xquery">
+    <th>Variable</th>
+    <th>Definición</th>
+  </tr>
+  <tr>
+    <td>FOR</td>
+    <td>Esta sentencia permite seleccionar los nodos que se quieren consultar, guardándose en la variable (el identificador que le precede el símbolo $)</td>
+</tr>
+<tr class="xquery"> 
+    <td>LET</td>
+    <td>Esta cláusula es opcional. Esta sentencia establece una nueva variable sobre el mismo y otro documento XML. Permite simplificar las expresiones posteriores y tener un código mucho más legible.</td></tr>
+<tr class="xquery">
+    <td>WHERE</td>
+    <td>Cláusula que permite establecer una condición sobre la variable indicada en "for" y "let".</td></tr>
+<tr class="xquery">
+    <td>ORDEN BY</td>
+    <td>Cláusula que define el orden de presentación de resultados.</td></tr>
+<tr class="xquery">
+    <td>RETURN</td>
+    <td>Permite devolver un valor concreto de los resultados obtenidos de las anteriores cláusulas (uno por nodo).</td></tr>
+</table>   
+<p>FOR y LET sirven para crear tuplas con las que trabajará el resto de las cláusulas de la consulta, y pueden
+usarse tantas veces como se desee en una misma consulta, incluso dentro de otras cláusulas. Sin embargo
+sólo puede declararse una única cláusula WHERE, una única cláusula ORDER y una única cláusula RETURN.
+Ninguna de las cláusulas FLWOR (For, Let, Where, Order by, Return) es obligatoria en una consulta XQuery.</p>
+    </div> 
+    
+
+  <div class="col-12 col-s-12">
+    <div class="aside">
+      <h2>Enlaces interesantes</h2>
+      <p><b><a class="panel" href="http://www.ticarte.com/contenido/que-es-el-lenguaje-xquery" target="_blank">Teoría XQUERY</a></b></p>
+      <p><b><a class="panel" href="https://docplayer.es/23197240-Xquery-un-lenguaje-de-consulta-para-xml.html" target="_blank">Apuntes XQUERY</a></b></p>
+      <h2>Ejercicios</h2>
+      <p><b><a class="panel" href="https://oscarmaestre.github.io/lenguajes_marcas/ejercicios/xquery/anexo_ejercicios_xquery.html" target="_blank">Ejercicios XQUERY</a></b></p>
+      <p><b><a class="panel" href="http://webdidacticarafaelmunoz.appspot.com/lmsgi/lmsgi-cap6.jsp" target="_blank">Ejercicios y Soluciones XQUERY</a></b></p>
+    </div>
+    </div></div>
+
+
+<div class="footer">
+  <div class="tooltip"><a class="panel" href="8%20sobre%20mi.html" target="_blank">Covadonga Herrero Álvarez</a>
+      <span class="tooltiptext">más información</span>
+</div>
+</div>
+
+
+</body>
+</html>
